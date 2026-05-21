@@ -9,6 +9,7 @@ import { AboutSection } from './portfolio/AboutSection';
 import { ContactSection } from './portfolio/ContactSection';
 import { ProjectSidePanel } from './portfolio/ProjectSidePanel';
 import { Footer } from './portfolio/Footer';
+import { Analytics } from "@vercel/analytics/next"
 
 export interface Project {
   id: string;

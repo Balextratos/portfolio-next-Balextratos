@@ -494,6 +494,9 @@ export function Portfolio() {
           onClose={() => setSelectedProject(null)}
         />
       )}
+
+      <Analytics />
+      <SpeedInsights />
     </div>
   );
 }
